@@ -1,0 +1,24 @@
+{
+  "name": "visit-counter",
+  "version": "1.0.0",
+  "description": "A profile visit counter API that returns an SVG badge.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["visit-counter", "profile-tracker", "svg-badge"],
+  "author": "ASWIN SPARKY",
+  "license": "MIT"
+}
