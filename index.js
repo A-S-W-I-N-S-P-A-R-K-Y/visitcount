@@ -16,7 +16,7 @@ const visitSchema = new mongoose.Schema({
 
 const Visit = mongoose.model("Visit", visitSchema);
 
-app.get("/profile", async (req, res) => {
+app.get("/:profile", async (req, res) => {
     const profile = req.params.profile;
 
     let visit = await Visit.findOne({ profile });
